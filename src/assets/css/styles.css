@@ -1,0 +1,12 @@
+.text-color-primary {
+  color: #ed772d !important; }
+
+.search-card .premium-bar {
+  position: absolute;
+  top: 20px;
+  color: red; }
+
+.search-card .ratings {
+  display: flex; }
+  .search-card .ratings .rating-img {
+    padding-right: 5px; }
