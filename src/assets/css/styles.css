@@ -1,12 +1,75 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif; }
+
 .text-color-primary {
-  color: #ed772d !important; }
+  color: #ed772d; }
+
+.search-card .card-img {
+  width: 100%;
+  max-height: 212px; }
 
 .search-card .premium-bar {
-  position: absolute;
-  top: 20px;
-  color: red; }
+  position: relative;
+  width: 40%;
+  top: 3rem;
+  margin-top: -30px;
+  color: white;
+  font-size: 20px;
+  background-color: #ed772d;
+  text-transform: uppercase;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  justify-content: center; }
 
-.search-card .ratings {
+.search-card .review {
   display: flex; }
-  .search-card .ratings .rating-img {
-    padding-right: 5px; }
+  .search-card .review .ratings {
+    display: flex; }
+    .search-card .review .ratings .rating-img {
+      padding-right: 5px; }
+  .search-card .review .review-text {
+    padding-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+    color: #707070; }
+
+.search-card .services {
+  padding: 5px 0;
+  display: flex; }
+  .search-card .services .service-img {
+    margin: 10px;
+    height: 16px; }
+
+.search-card .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f3f6;
+  font-size: 20px; }
+  .search-card .footer .price {
+    font-weight: bold; }
+    .search-card .footer .price .terms {
+      font-size: small;
+      color: #707070; }
+  .search-card .footer .btn {
+    font-weight: bold;
+    color: #ed772d;
+    cursor: pointer; }
+
+.fab {
+  float: right;
+  position: relative;
+  bottom: 38px;
+  margin-bottom: -38px;
+  margin-right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: #FE4365;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .fab:hover {
+    cursor: pointer;
+    transform: scale(1.05); }

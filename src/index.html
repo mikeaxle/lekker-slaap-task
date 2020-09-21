@@ -14,30 +14,56 @@
 
 <body>
 
-    <div class="px-6 pt-4 pb-2">
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#hotel</span>
+    <!-- card   -->
+    <!--  tags  -->
+    <div class="px-2 pt-4 pb-1">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-color-primary mr-2 mb-2">#hotel</span>
     </div>
+
+    <!-- card body -->
     <div class="search-card max-w-sm rounded overflow-hidden shadow-lg mx-2">
+        <!--   premium label     -->
         <div class="premium-bar">Premium</div>
-        <img class="w-full" src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAAJDc2NDdjZWE5LTM4YWQtNDY4Yy05MmEzLWI3MDM1MTdmYWE2Yw?fit=crop&w=638&h=440&bg=000000&auto=enhance,compress&q=80" alt="Sunset in the mountains">
+
+        <!-- image -->
+        <img class="card-img" src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAAJDc2NDdjZWE5LTM4YWQtNDY4Yy05MmEzLWI3MDM1MTdmYWE2Yw?fit=crop&w=720&h=405&bg=000000&auto=enhance,compress&q=80" alt="Sunset in the mountains">
+
+        <!-- favourite button -->
+        <div class="fab" ><img src="./assets/img/_ionicons_svg_ios-heart.svg"  alt="favourite icon"/></div>
+
         <div class="px-4 py-4">
+            <!-- establishment name -->
             <div class="text-color-primary font-bold text-xl mb-2">Tsala Treetop Lodge</div>
 
-            <div class="ratings">
-                <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
-                <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
-                <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
-                <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
-                <img class="rating-img" src="./assets/img/star-half-alt.svg" alt="rating-star">
+            <!-- review -->
+            <div class="review">
+                <!-- ratings -->
+                <div class="ratings">
+                    <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
+                    <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
+                    <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
+                    <img class="rating-img" src="./assets/img/star.svg" alt="rating-star">
+                    <img class="rating-img" src="./assets/img/star-half-alt.svg" alt="rating-star">
+                </div>
+                <!-- review count -->
+                <span class="review-text">1 Review</span>
             </div>
-            <span class="review-text">1 Review</span>
 
+            <!-- short description -->
             <p class="text-gray-700 text-base">
                 Set amidst the treetops of an age-old indigenous forest, Tsala Treetop Lodge is a lavish celebration of the spirit of Africa.
             </p>
+
+            <!-- service icons -->
+            <div class="services">
+                <img class="service-img" src="./assets/img/sports-car.svg" alt="parking">
+                <img class="service-img" src="./assets/img/swimming.svg" alt="parking">
+            </div>
         </div>
-        <div class="footer">
-            <div class="price">R13,030 <span class="terms">/night, sleeps 2</span></div>
+
+        <!-- footer -->
+        <div class="footer px-4 py-2">
+            <div class="price text-color-primary">R13,030 <span class="terms">/night, sleeps 2</span></div>
             <div class="btn">View More</div>
         </div>
     </div>
