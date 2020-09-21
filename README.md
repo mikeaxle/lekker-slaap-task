@@ -1,5 +1,5 @@
 # lekker-slaap-task
-## search results card for iphone XS
+## Search results card for iphone XS
 Repository contains
 - adobe XD design: prototypes/
 - scss styles: src/assets/scss/ 
