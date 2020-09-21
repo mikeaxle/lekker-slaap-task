@@ -5,3 +5,5 @@ Repository contains
 - scss styles: src/assets/scss/ 
 - css styles: src/assets/css/
 - html: src/index.html 
+
+*uses Tailwind CSS utilities: https://tailwindcss.com/
