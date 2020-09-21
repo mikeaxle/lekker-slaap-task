@@ -14,7 +14,8 @@ html {
   top: 3rem;
   margin-top: -30px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 400;
   background-color: #ed772d;
   text-transform: uppercase;
   border-radius: 0 5px 5px 0;
@@ -29,8 +30,7 @@ html {
       padding-right: 5px; }
   .search-card .review .review-text {
     padding-left: 10px;
-    font-weight: bold;
-    font-style: italic;
+    font-weight: 600;
     color: #707070; }
 
 .search-card .services {
@@ -45,14 +45,12 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: #f5f3f6;
-  font-size: 20px; }
-  .search-card .footer .price {
-    font-weight: bold; }
-    .search-card .footer .price .terms {
-      font-size: small;
-      color: #707070; }
+  font-size: 20px;
+  font-weight: 600; }
+  .search-card .footer .price .terms {
+    font-size: small;
+    color: #707070; }
   .search-card .footer .btn {
-    font-weight: bold;
     color: #ed772d;
     cursor: pointer; }
 

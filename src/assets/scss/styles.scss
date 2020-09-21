@@ -17,7 +17,8 @@ html {
         top:3rem;
         margin-top: -30px;
         color: white;
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 400;
         background-color: #ed772d;
         text-transform: uppercase;
         border-radius: 0 5px 5px 0;
@@ -38,8 +39,7 @@ html {
 
         .review-text {
             padding-left: 10px;
-            font-weight: bold;
-            font-style: italic;
+            font-weight: 600;
             color: #707070
         }
     }
@@ -60,9 +60,9 @@ html {
         align-items: center;
         background-color: #f5f3f6;
         font-size: 20px;
+        font-weight: 600;
 
         .price {
-            font-weight: bold;
             .terms {
                 font-size: small;
                 color: #707070
@@ -70,7 +70,6 @@ html {
         }
 
         .btn {
-            font-weight: bold;
             color: #ed772d;
             cursor: pointer;
         }
